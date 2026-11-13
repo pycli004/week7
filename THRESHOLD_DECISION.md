@@ -2,7 +2,7 @@
 
 ## Summary
 
-The default classification threshold of 0.5 is **not appropriate** for this business problem. Missing a churner costs the company a lost customer (~$500 in lifetime value); a false alarm costs only the price of an unnecessary retention offer (~$50). The asymmetry is roughly 10:1.
+The default classification threshold of 0.5 is **not appropriate** for this business problem. Missing a churner costs the company a lost customer. The asymmetry is roughly 10:1.
 
 Based on this, we choose a **decision threshold of 0.342**, which:
 - Achieves **86.1% recall** on churners (up from 75.1% at 0.5)
